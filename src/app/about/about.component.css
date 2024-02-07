@@ -1,0 +1,44 @@
+.about {
+  height: 80vh;
+  color: white;
+  background-color: #1abc9c;
+  padding-top: 100px;
+}
+.about h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  position: relative;
+}
+.about h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto;
+}
+.about h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto;
+}
+.about .star:after {
+  content: "\2605"; 
+  position: absolute;
+  bottom: 295px;
+  left: 733px;
+  color: white; 
+  font-size: 28px;
+  padding: 20px 0;
+}
+.about p {
+  text-align: left;
+}

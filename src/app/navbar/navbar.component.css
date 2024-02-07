@@ -1,0 +1,27 @@
+.nav {
+  background-color: #2c3e50;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.nav a {
+  color: white !important;
+}
+.nav .navbar-brand {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  padding: 5px 0px;
+}
+.nav .nav-item {
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px;
+}
+.nav .nav-item .active-link {
+  background-color: #1abc9c;
+  border-radius: 10px;
+}

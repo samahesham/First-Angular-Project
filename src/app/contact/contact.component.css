@@ -1,0 +1,47 @@
+.contact {
+  height: 80vh;
+  color: #2c3e50;
+  background-color: white;
+  padding-top: 140px;
+}
+.contact h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  position: relative;
+}
+.contact h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  width: 100px;
+  height: 3px;
+  background-color: #2c3e50;
+  margin: 10px auto;
+}
+.contact h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 3px;
+  background-color: #2c3e50;
+  margin: 10px auto;
+}
+.contact .star:after {
+  content: "\2605";
+  position: absolute;
+  bottom: 520px;
+  left: 735px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+.contact .form {
+  padding-top: 80px;
+}
+.contact .form .send-btn {
+  background-color: #1abc9c;
+  color: white;
+}
